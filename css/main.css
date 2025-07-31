@@ -3,6 +3,9 @@ main {
     font-family: "Roboto", sans-serif;
 }
 
+
+/* top section */
+
 .container_main-box {
     background-color: var(--darkBlue);
     padding: 16px 8px;
@@ -51,6 +54,9 @@ main {
     transform: scale(1.03);
 }
 
+
+/* why we section */
+
 .our-job_section {
     background-color: white;
     padding: 16px 8px;
@@ -72,6 +78,8 @@ main {
     margin-top: 80px;
     max-width: 235px;
     max-height: 50px;
+    position: relative;
+    padding-top: 40px;
 }
 
 .list-item_sg {
@@ -112,6 +120,9 @@ main {
 .image {
     border-radius: 5px;
 }
+
+
+/* our team section */
 
 .our-team_section {
     background-color: var(--white_gray);
@@ -163,5 +174,7 @@ main {
 .team-member:hover {
     transform: scale(1.03);
 }
+
+
 
 /* 1170x98  1170-(300*3)  270x72(98)  270x48(74) lamb;-; */
