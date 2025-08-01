@@ -10,7 +10,12 @@ main {
     background-color: var(--darkBlue);
     padding: 16px 8px;
     width: 1600px;
-    height: 800px;
+    height: 600px;
+}
+
+.container_main-box {
+    background-image: url("../images/background.webp");
+    background-repeat: no-repeat;
 }
 
 .main_container {
@@ -29,7 +34,7 @@ main {
     letter-spacing: 6%;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 .main_btn--wrapper {
@@ -58,6 +63,8 @@ main {
 /* why we section */
 
 .our-job_section {
+    display: flex;
+    justify-content: center;
     background-color: white;
     padding: 16px 8px;
     width: 1600px;
@@ -68,18 +75,57 @@ main {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     max-width: 1400px;
 }
 
 .our-job_list-item {
     font-size: 12px;
     flex-basis: calc((100% - 1px) / 4);
-    margin-top: 80px;
-    max-width: 235px;
+    margin-top: 40px;
+    max-width: 230px;
     max-height: 50px;
-    position: relative;
-    padding-top: 40px;
+    margin-bottom: 80px;
+}
+
+.our-job_one::before {
+    content: '';
+    display: block;
+    width: 210px;
+    height: 100px;
+    background-image: url("../images/antena.webp");
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.our-job_two::before {
+    content: '';
+    display: block;
+    width: 210px;
+    height: 100px;
+    background-image: url("../images/clock.webp");
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.our-job_three::before {
+    content: '';
+    display: block;
+    width: 210px;
+    height: 100px;
+    background-image: url("../images/laptop.webp");
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.our-job_four::before {
+    content: '';
+    display: block;
+    width: 210px;
+    height: 100px;
+    background-image: url("../images/astronaut.webp");
+    background-position: center;
+    margin-bottom: 20px;
 }
 
 .list-item_sg {
@@ -120,6 +166,7 @@ main {
 .image {
     border-radius: 5px;
 }
+
 
 
 /* our team section */
