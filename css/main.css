@@ -71,6 +71,19 @@ main {
     height: 800px;
 }
 
+.our-job_section {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(44, 248, 146, 0.2),
+      rgba(177, 37, 135, 0.2)
+    );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .our-job_list {
     justify-content: center;
     display: flex;
