@@ -71,19 +71,6 @@ main {
     height: 800px;
 }
 
-.our-job_section {
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(
-      to right,
-      rgba(44, 248, 146, 0.2),
-      rgba(177, 37, 135, 0.2)
-    );
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .our-job_list {
     justify-content: center;
     display: flex;
@@ -199,7 +186,7 @@ main {
     margin-top: 100px;
 }
 
-.our-team ul {
+.our-team_list {
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -210,7 +197,6 @@ main {
     background-color: white;
     display: flex;
     flex-direction: column;
-    height: 338px;
     box-shadow: 0px 2px 1px 0px #00000033;
     box-shadow: 0px 1px 1px 0px #00000024;
     box-shadow: 0px 1px 3px 0px #0000001F;
@@ -228,6 +214,7 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    margin-bottom: 30px;
     color: var(--gray);
     font-weight: 400;
     font-size: 16px;
@@ -239,5 +226,3 @@ main {
 }
 
 
-
-/* 1170x98  1170-(300*3)  270x72(98)  270x48(74) lamb;-; */
