@@ -221,6 +221,34 @@ main {
     letter-spacing: 3%;
 }
 
+.svg-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.svg-icons_item:hover {
+    background-color: var(--lightBlue);
+    border-radius: 70px;
+}
+
+
+
+.svg-icons_item {
+    padding: 8px 10px 7px 10px;
+}
+
 .team-member:hover {
     transform: scale(1.03);
 }
